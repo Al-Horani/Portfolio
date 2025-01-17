@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif !important;
+}
+
+
+
+:root {
+  --bg-primary-color :#F1F3F5;
+  --secondray-color:#F9FAFB;
+}
+
+
+
+body {
+  background-color: var(--bg-primary-color);
+
+    overflow-y:auto;
+    overflow-x: hidden;
+
+}
+::-webkit-scrollbar {
+  display: none; /* إخفاء الشريط */
+}
+
+.bg-seco {
+  background: var(--secondray-color);
+}
